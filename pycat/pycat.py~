@@ -5,7 +5,7 @@ import argparse
 
 turnOffConcatBool = False
             
-def combine_files_in_list_to_output(filelist, outputfile):
+def combine_files_in_list_to_output(filelist, outputfile, releaseName):
     try:
         with open(outputfile, 'w') as output:
                 
@@ -66,7 +66,7 @@ def main():
             print("filelist, {}, is not a file".format(filelist))
             exit()
         else:
-            combine_files_in_list_to_output(filelist, outputFile)
+            combine_files_in_list_to_output(filelist, outputFile, "XXX")
             
 if __name__ == "__main__":
     main()
