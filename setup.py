@@ -5,7 +5,6 @@ setup(
     version="0.1.0",
     packages=["pycat"],
     install_requires=[
-        'os','argparse'
     ],
     description="A simple utility to concatenate things.",
     author="Galen Boyer",
