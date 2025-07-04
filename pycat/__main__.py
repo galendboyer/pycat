@@ -1,4 +1,4 @@
-from .pycat import main  # Or whatever entry function you'd like to run
+from .pycat import main
 
 if __name__ == "__main__":
     main()
